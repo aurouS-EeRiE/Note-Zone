@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1049590292889",
+    "firebase_url": "https://note-zone.firebaseio.com",
+    "project_id": "note-zone",
+    "storage_bucket": "note-zone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049590292889:android:bd3e0b644f6ceea01df308",
+        "android_client_info": {
+          "package_name": "com.example.notezone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049590292889-erjivovjobeg1g9n9rpl5ql8jke35iev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notezone",
+            "certificate_hash": "cf1454b064d665222972bb8b67338f50991a5971"
+          }
+        },
+        {
+          "client_id": "1049590292889-qdar97qcek1epo0cvchjsh80ikkaq9tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQVIeiVq061MnOYT6mjrj9Fk_M1BiEWrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049590292889-qdar97qcek1epo0cvchjsh80ikkaq9tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

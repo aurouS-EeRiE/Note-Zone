@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".entry_note"
+    android:clickable="true"
+    android:background="#FFFFFF"
+    android:focusableInTouchMode="true">
+
+    <com.google.android.material.card.MaterialCardView
+        android:backgroundTint="#D1D1D1"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="17dp"
+        android:elevation="17dp"
+        android:layout_margin="26dp"
+        android:layout_height="match_parent"
+        android:theme="@style/Platform.MaterialComponents.Light"
+        android:paddingTop="26dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="53dp"
+                android:textAlignment="center"
+                android:layout_marginTop="17dp"
+                android:gravity="center_horizontal"
+                android:hint="@string/title"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/description"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="17dp"
+                android:layout_marginTop="17dp"
+                android:inputType="textMultiLine"
+                android:textAlignment="textStart"
+                android:hint="@string/enter_your_note"
+                android:maxLines="17"
+                android:gravity="start" />
+
+        </LinearLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/check_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="17dp"
+        android:clickable="true"
+        android:backgroundTint="#0d68d1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_check_24"
+        tools:ignore="VectorDrawableCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

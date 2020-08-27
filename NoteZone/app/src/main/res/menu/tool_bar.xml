@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/passwords"
+        android:icon="@drawable/ic_baseline_vpn_key_24"
+        android:title="@string/passwords"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="@string/passwords"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/share"
+        android:title="@string/share">
+    </item>
+    <item android:id="@+id/logout"
+        android:title="@string/logout">
+    </item>
+    <item android:id="@+id/help"
+        android:title="Help">
+    </item>
+
+</menu>

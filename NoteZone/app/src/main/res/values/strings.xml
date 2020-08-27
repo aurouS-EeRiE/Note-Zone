@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Note Zone</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="title">Title</string>
+    <string name="enter_your_note">Enter your note</string>
+    <string name="date_time"><![CDATA[Date & Time]]></string>
+    <string name="passwords">Passwords</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="image">image</string>
+    <string name="no_note_added">No Note added</string>
+    <string name="no_passwords_added">No passwords added</string>
+    <string name="bhuvana_venigalla">Bhuvana Venigalla</string>
+    <string name="nori_srilahari">Nori Srilahari</string>
+    <string name="addepalli_srilekha">Addepalli Srilekha</string>
+</resources>
